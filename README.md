@@ -1,29 +1,40 @@
 # liyuan-ui
-
-## Project setup
 ```
-npm install
+笠源自己实践中的实现插件
 ```
 
-### Compiles and hot-reloads for development
+### 安装
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+$ npm install liyuan-ui -S
 ```
 
-### Run your tests
-```
-npm run test
-```
+### 使用
 
-### Lints and fixes files
+在 main.js 文件中引入插件并注册
 ```
-npm run lint
+# main.js
+import liyuanUi from 'liyuan-ui'
+Vue.use(liyuanUi)
 ```
+在项目中使用 vcolorpicker
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+<li-foldturn>
+    <img src="" alt=""> 
+</li-foldturn>
+
+```
+### 描述
+
+实现图片折叠跑马灯的效果
+
+### 选项
+
+标签下插入图片必须添加img标签
+
+### 说明
+
+插件功能持续更新中
+
+
+
