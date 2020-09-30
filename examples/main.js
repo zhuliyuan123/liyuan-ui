@@ -3,8 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import ColorPicker from './../packages/index'
-Vue.use(ColorPicker)
+import liUi from './../packages/index'
+Vue.use(liUi)
 
 Vue.config.productionTip = false
 

@@ -12,6 +12,7 @@
     "lib": "vue-cli-service build --target lib --name liyuan --dest lib packages/index.js"
   },
   "dependencies": {
+    "async-validator": "^3.4.0",
     "vue": "^2.5.22",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -25,6 +26,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
+    "postcss-pxtorem": "^4.0.1",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.21"
   }
