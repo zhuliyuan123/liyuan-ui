@@ -38,11 +38,9 @@ export default {
             this.dispatch('liFormItem', 'on-form-change', value);
         },
         handleBlur(){
-            console.log(this.currentValue)
             this.dispatch('liFormItem', 'on-form-blur', this.currentValue);
         }
     }
-
 }
 </script>
 <style lang="scss" scoped>

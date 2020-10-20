@@ -5,6 +5,8 @@ import liList from './li-list'
 import liForm from './li-form'
 import liFormItem from './li-form-item'
 import liInput from './li-input'
+import liVirtualList from './li-virtual-list'
+import liLazy from './li-lazy'
 
 // 存储组件列表
 const components = [
@@ -13,7 +15,9 @@ const components = [
   liList,
   liForm,
   liFormItem,
-  liInput
+  liInput,
+  liVirtualList,
+  liLazy
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -38,6 +42,8 @@ export default {
   liList,
   liForm,
   liFormItem,
-  liInput
+  liInput,
+  liVirtualList,
+  liLazy
 }
 
